@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> une page simple</title>
+    <meta charset ="UTF-8">
+    <link rel=" stylesheet" href=""/>
+    <style>
+         table,tr,td,th{
+            border:solid 2px;
+            border-collapse:collapse}
+    </style> 
+
+ <script src="stock.js" ></script>
+
+</head>
+<body style="margin:40px"></body>
+<div class="contrainer">
+<div class="row">
+<form>
+   
+       <legend>reference</legend>
+       <input type="text" class="form-control" name="" id="ref">
+       <legend>Nom</legend>
+       <input type="text" class="form-control" name="" id="nom">
+       <legend>Prix de vente</legend>
+       <input type="text" class="form-control" name="" id="prix">
+       <legend>Quantité</legend>
+       <input type="text" class="form-control" name="" id="q">
+
+    <hr>
+       
+    <button id="ajout" class="btn btn-success" >Ajouter un article</button>
+    <hr>
+    <button id="sup"  onclick="supprimer()"> Supprimer un article </button>
+    <hr>
+    <button id="modif" onclick="modifierArticle()">Modifier un article</button>
+    <hr>
+    <button id="modif" onclick="rechercheArticle()" >Recherche un article</button>
+    <hr>
+    <button id="affich" class="btn btn-success">Afficher tous les article</button>
+   
+</form>
+<h1> </h1>
+<hr>
+
+</div>
+</div>
+<script >
+
+</script>
+
+ </html>
